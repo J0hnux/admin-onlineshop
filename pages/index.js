@@ -14,6 +14,9 @@ export default function Home() {
   }
 
   return (
-    <div>logged in as {session.user.email}</div>
+    <div className="bg-green-900 min-h-screen">
+      <div>logged in as {session.user.email}</div>
+    </div>
+    
   )
 }
